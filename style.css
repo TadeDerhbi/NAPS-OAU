@@ -16,7 +16,7 @@ nav {
 }
 
 
-nav img {
+/*nav img {
     width: 15%;
 }
 .right-nav {
@@ -59,7 +59,7 @@ nav img {
     color: rgba(255,255,255,1);
 }
 
-.hero-head {
+hero-head {
     /* this color though...*/
     color: rgba(63, 63,149,1);
     font-size: 300%;
@@ -79,7 +79,6 @@ nav img {
     color: white;
 }
 
-<<<<<<< HEAD
 
 /*dearborn */
 .event{
@@ -112,7 +111,6 @@ nav img {
     font-size: 1rem;
     margin-bottom: 20px;
 }
-=======
 .right-hero {
     width: 50%;
 }
@@ -121,4 +119,3 @@ nav img {
     border-radius: 20px;
     box-shadow: 5px 5px 10px black;
 }
->>>>>>> 540e26658ed8981f91fee14e3cfcae01c0f1eb1d
