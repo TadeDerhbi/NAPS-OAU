@@ -93,7 +93,7 @@ nav img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5% 5%;
+    padding: 3% 3%;
 }
 .picture-section img {
     width: 50%;
@@ -102,7 +102,7 @@ nav img {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
 }
 
 .first-pic {
@@ -122,7 +122,7 @@ nav img {
 }
 
 .right-pic-sect {
-    width: 50%;
+    width: 30%;
     margin: 0% 10%;
 }
 .right-pic-sect p {
