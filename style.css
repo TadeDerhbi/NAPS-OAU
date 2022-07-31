@@ -72,3 +72,36 @@ nav {
     background: none;
     color: white;
 }
+
+
+/*dearborn */
+.event{
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    gap: 10px;
+}
+.event::-webkit-scrollbar{
+    -webkit-appearance: none;
+    width: 0;
+    display: none;
+}
+.naps-dinner{
+    background-color: rgba(5, 5, 4, 0.986);
+    color: wheat;
+    width: 100%;
+    height: auto;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 3px 3px 8px 4px black;
+}
+.img-naps-dinner{
+    max-width: 170PX;
+}
+.naps-dinner-text{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
