@@ -11,10 +11,14 @@ nav {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    padding: 2% 2%;
+    padding: 1% 1%;
     background-color: rgba(63, 63,149,1);
 }
 
+
+nav img {
+    width: 15%;
+}
 .right-nav {
     display: flex;
     justify-content: space-between;
@@ -42,6 +46,8 @@ nav {
     background-color: rgba(156,153,176,1);
     padding: 10% 10%;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .left-hero {
@@ -73,6 +79,7 @@ nav {
     color: white;
 }
 
+<<<<<<< HEAD
 
 /*dearborn */
 .event{
@@ -105,3 +112,13 @@ nav {
     font-size: 1rem;
     margin-bottom: 20px;
 }
+=======
+.right-hero {
+    width: 50%;
+}
+.right-hero img {
+    width: 120%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+}
+>>>>>>> 540e26658ed8981f91fee14e3cfcae01c0f1eb1d
