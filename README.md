@@ -3,4 +3,11 @@ This Repository features a collaborative work between myself @TadeDerhbi, @Dearb
 
 # BASIC STRUCTURE OF THE WEBSITE.
 
+# COLOUR GRADIENT.
+- Blue rgba (63, 63,149,1)
+- Ash rgba (156,153,176,1)
+- Red rgba (176, 44,41,1)
+- Black rgba (5,5,4,1)
+- White rgba (255,255,255,1)
+
 # INDIVIDUAL COMMITTMENT.
