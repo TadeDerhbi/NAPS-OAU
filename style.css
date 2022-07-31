@@ -127,10 +127,6 @@ nav img {
 /* PICTURE SECTION */
 .pic-section {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
 }
 .pic-section img {
     width: 50%;
@@ -139,7 +135,7 @@ nav img {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    width: 20%;
 }
 
 .first-pic {
@@ -156,6 +152,10 @@ nav img {
 .other-pic {
     width: 50%;
     display: flex;
+}
+
+.right-pic-sect p {
+    font-weight: 700;
 }
 =======
 >>>>>>> 540e26658ed8981f91fee14e3cfcae01c0f1eb1d
