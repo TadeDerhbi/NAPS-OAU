@@ -87,3 +87,38 @@ nav img {
     border-radius: 20px;
     box-shadow: 5px 5px 10px black;
 }
+
+
+/* PICTURE SECTION */
+.pic-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pic-section img {
+    width: 50%;
+}
+.left-pic-sect {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.first-pic {
+    width: 50%;
+}
+.first-pic img {
+    width: 100%;
+}
+
+.other-pic img {
+    width: 50%
+}
+
+.other-pic {
+    width: 50%;
+    display: flex;
+}
