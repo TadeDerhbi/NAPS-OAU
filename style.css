@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Sharon - Using flex for the hero section and the nav, havent gotten the hang of grid yet*/
+/* HEADER */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2% 2%;
+    background-color: rgba(63, 63,149,1);
+}
+
+.right-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.home {
+    border-bottom: 2px solid rgba(255,255,255,1);
+    padding-bottom: 10%;
+}
+
+.right-nav a {
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+}
+
+.right-nav p {
+    padding: 1%;
+}
+
+/* HERO SECTION */
+.hero-section {
+    background-color: rgba(156,153,176,1);
+    padding: 10% 10%;
+    display: flex;
+}
+
+.left-hero {
+    width: 50%;
+}
+
+.left-hero a {
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+}
+
+.hero-head {
+    /* this color though...*/
+    color: rgba(63, 63,149,1);
+    font-size: 300%;
+}
+
+#naps {
+    font-size: 150%;
+}
+
+.hero-btn {
+    padding: 2% 4%;
+    border:2px solid white;
+    border-radius: 5px;
+    margin-top: 5%;
+    margin-left: 5%;
+    background: none;
+    color: white;
+}
