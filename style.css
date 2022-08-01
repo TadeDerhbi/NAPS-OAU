@@ -59,7 +59,7 @@ nav img {
     color: rgba(255,255,255,1);
 }
 
-.hero-head {
+hero-head {
     /* this color though...*/
     color: rgba(63, 63,149,1);
     font-size: 300%;
@@ -78,7 +78,152 @@ nav img {
     background: none;
     color: white;
 }
-
+.complaint{
+    padding: 5px;
+    padding-bottom: 0;
+    padding-right: 0;
+    display: flex;
+}
+.complaint h2{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: rgba(176, 43, 41, 1);
+}
+.comp{
+    width: 70%;
+    margin-top: 50px;
+}
+.comp2{
+    width: 30%;
+}
+.complaint h4{
+   
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+}
+form{
+    background-color: rgba(63, 63,149,1);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    
+}
+input[type=text], input[type=email]{
+    border-radius: 5px;
+    border-style: none;
+    padding: 15px 10px;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+textarea{
+    width: 95%;
+    padding: 10px 5px;
+    margin-top: 10px;
+    /*241968-Tade*/
+    margin-bottom: 5px;
+    border-style: none;
+    border-radius: 5px;
+}
+button[type=submit]{
+    padding: 8px 10px;
+    background-color: white;
+    border-style: none;
+    border-radius: 5px;
+    color: rgba(156,153,176,1);
+}
+.last{
+    background-color: rgba(63, 63,149,1);
+    color: rgba(156,153,176,1);
+    display: flex;
+    height: 250px;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#NAPSLOGO{
+    width: 70px;
+    padding: 3px;
+    margin-top: 30px;
+}
+.last p{
+    margin-left: 10px;
+    color: white;
+    font-family: arial;
+    font-weight: light;
+    font-size: 13px;
+}
+.last ul li{
+    list-style-type: none;
+    padding: 8px 10px;
+    font-size: 15px;
+    color: white;
+    font-family: arial;
+}
+#difffooter{
+    margin-top: 30px;
+    text-decoration: underline;
+    word-spacing: 3px;
+    color: rgba(156,153,176,1);
+}
+footer{
+    background-color: rgba(63, 63,149,1);
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: light;
+}
+hr{
+    height: 60%;
+    margin-top: 50px;
+}
+/*dearborn */
+.event{
+    display: flex;
+    overflow-y: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    gap: 10px;
+}
+.event::-webkit-scrollbar{
+    -webkit-appearance: none;
+    width: 0;
+    display: none;
+}
+.naps-dinner{
+    background-color: rgba(5, 5, 4, 0.986);
+    color: wheat;
+    height: auto;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 3px 3px 8px 4px black;
+}
+.img-naps-dinner{
+    max-width: 250px;
+    transition: 10s;
+}
+.img-naps-dinner:hover{
+    max-width: 300px;
+    transform: translateX(-15px);
+    transform: translateY(-15px);
+    transition: ease-in 1.5s;
+}
+.naps-dinner-text{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+.naps-dinner-text-para{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
 .right-hero {
     width: 50%;
 }
@@ -87,7 +232,6 @@ nav img {
     border-radius: 20px;
     box-shadow: 5px 5px 10px black;
 }
-
 /* PICTURE SECTION */
 .picture-section {
     display: flex;
@@ -120,7 +264,6 @@ nav img {
     width: 50%;
     display: flex;
 }
-
 .right-pic-sect {
     width: 30%;
     margin: 0% 10%;
@@ -128,5 +271,3 @@ nav img {
 .right-pic-sect p {
     font-weight: 700;
 }
-=======
->>>>>>> 784b346eb3b2c10a9a66f28eb7636dd74f28bb0d
