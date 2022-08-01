@@ -287,7 +287,6 @@ hr{
 }
 .right-pic-sect p {
     font-weight: 700;
-<<<<<<< HEAD
 }
 #excutivecontainer{
     display: grid;
@@ -307,10 +306,16 @@ hr{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.0rem;
     text-align: center;
+    padding: 4px;
 }
 .excimg{
     background-color: black;
     color: wheat;
+    cursor: pointer;
+    box-shadow: 3px 3px 8px 4px black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0 0 17px 17px;
 }
 .excimg-img{
     width: 100%;
@@ -330,6 +335,4 @@ hr{
     display: grid;
     grid-template-columns: 250px 250px 250px 250px;
     gap: 20px;}
-=======
->>>>>>> b40908177f08bb297911743e4c69b572a4dafaa0
 }
