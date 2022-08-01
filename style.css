@@ -44,7 +44,7 @@ nav img {
 /* HERO SECTION */
 .hero-section {
     background-color: rgba(156,153,176,1);
-    padding: 10% 10%;
+    padding: 7% 7%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,6 +79,7 @@ hero-head {
     color: white;
 }
 
+<<<<<<< HEAD
 
 /*dearborn */
 .event{
@@ -120,30 +121,35 @@ hero-head {
     text-align: center;
     padding: 10px;
 }
+=======
+>>>>>>> 97ad54257780410146a15a5697ced00c932a8117
 .right-hero {
     width: 50%;
 }
 .right-hero img {
-    width: 120%;
+    width: 100%;
     border-radius: 20px;
     box-shadow: 5px 5px 10px black;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 97ad54257780410146a15a5697ced00c932a8117
 /* PICTURE SECTION */
-.pic-section {
+.picture-section {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3% 3%;
 }
-.pic-section img {
+.picture-section img {
     width: 50%;
 }
 .left-pic-sect {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
 }
 
 .first-pic {
@@ -161,3 +167,16 @@ hero-head {
     width: 50%;
     display: flex;
 }
+<<<<<<< HEAD
+=======
+
+.right-pic-sect {
+    width: 30%;
+    margin: 0% 10%;
+}
+.right-pic-sect p {
+    font-weight: 700;
+}
+=======
+>>>>>>> 784b346eb3b2c10a9a66f28eb7636dd74f28bb0d
+>>>>>>> 97ad54257780410146a15a5697ced00c932a8117
