@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Homepage</title>
 </head>
-<body>
+<body id="index">
     <header>
         <nav>
             <div class="left-nav">
@@ -38,10 +38,11 @@
         <div class="pic-section">
             <div class="left-pic-sect">
                 <div class="first-pic">
-
+                    <img src="pic1.jpg" alt="pic">
                 </div>
                 <div class="other-pic">
-
+                    <img src="pic1.jpg" alt="pic">
+                    <img src="pic2.jpg" alt="pic">
                 </div>
             </div>
             <div class="right-pic-sect">
@@ -54,34 +55,72 @@
     <section id="achievement">
         <div class="event">
             <div class="naps-dinner">
-                <img src="/naps/dinner.jpg" alt="NAPS DINNER" class="img-naps-dinner">
+                <img src="/naps/dinner.jpg" alt="NAPS DINNER" class="img-naps-dinner" id="napsDinner">
                 <h2 class="naps-dinner-text">NAPS DINNER</h2>
+                <p class="naps-dinner-text-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    At atque quod aperiam consequuntur sint quibusdam odio rem magnam, natus quae perspiciatis sed maiores qui nam explicabo sunt. 
+                    Blanditiis, repellat? Ut.
+                </p>
             </div>
             <div class="naps-dinner">
-                <img src="/naps/matric1.jpg" alt="NAPS DINNER" class="img-naps-dinner">
+                <img src="/naps/matric1.jpg" alt="NAPS DINNER" class="img-naps-dinner" id="matric1">
                 <h2 class="naps-dinner-text">NAPS MATRIC </h2>
+                <p class="naps-dinner-text-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    At atque quod aperiam consequuntur sint quibusdam odio rem magnam, natus quae perspiciatis sed maiores qui nam explicabo sunt. 
+                    Blanditiis, repellat? Ut.
+                </p>
             </div>
             <div class="naps-dinner">
                 <img src="/naps/awardnyt1.jpeg" alt="NAPS DINNER" class="img-naps-dinner">
                 <h2 class="naps-dinner-text">NAPS AWARD NIGHT</h2>
+                <p class="naps-dinner-text-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    At atque quod aperiam consequuntur sint quibusdam odio rem magnam, natus quae perspiciatis sed maiores qui nam explicabo sunt. 
+                    Blanditiis, repellat? Ut.
+                </p>
             </div>
             <div class="naps-dinner">
                 <img src="/naps/fresherswk.jpg" alt="NAPS DINNER" class="img-naps-dinner" >
                 <h2 class="naps-dinner-text">FRESHERS WEEK</h2>
+                <p class="naps-dinner-text-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    At atque quod aperiam consequuntur sint quibusdam odio rem magnam, natus quae perspiciatis sed maiores qui nam explicabo sunt. 
+                    Blanditiis, repellat? Ut.
+                </p>
             </div>
             <div class="naps-dinner">
                 <img src="/naps/awardnyt1.jpeg" alt="NAPS DINNER" class="img-naps-dinner">
                 <h2 class="naps-dinner-text">NAPS AWARD NIGHT</h2>
+                <p class="naps-dinner-text-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    At atque quod aperiam consequuntur sint quibusdam odio rem magnam, natus quae perspiciatis sed maiores qui nam explicabo sunt. 
+                    Blanditiis, repellat? Ut.
+                </p>
             </div>
             <div class="naps-dinner">
                 <img src="/naps/montaineering.jpg" alt="NAPS DINNER" class="img-naps-dinner">
                 <h2 class="naps-dinner-text">MOUNTAINEERING</h2>
+                <p class="naps-dinner-text-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    At atque quod aperiam consequuntur sint quibusdam odio rem magnam, natus quae perspiciatis sed maiores qui nam explicabo sunt. 
+                    Blanditiis, repellat? Ut.
+                </p>
             </div>
         </div>
     </section>
     <footer>
 
     </footer>
-
+    <!--<script src="script.js" ></script>-->
+    <script >
+        let matricPicture = document.getElementById('matric1')
+        let matricImage = ['/naps/matric1.jpg','/naps/matriculation.jpg']
+        setInterval(() => {
+            let random = Math.floor(Math.random()*matricImage.length)
+            matricPicture.src = matricImage[random]
+        }, 3500);
+        let napsDinnerPicture = document.getElementById('napsDinner')
+        let dinnerPicture = ['/naps/dinner.jpg', '/naps/awardnyt1.jpeg']
+        setInterval(() => {
+            let random = Math.floor(Math.random()*dinnerPicture.length)
+            napsDinnerPicture.src = dinnerPicture[random]
+        }, 3500);
+    </script>
 </body>
 </html>
