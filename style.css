@@ -9,7 +9,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     padding: 1% 1%;
     background-color: rgba(63, 63,149,1);
@@ -78,7 +78,112 @@ hero-head {
     background: none;
     color: white;
 }
-
+.complaint{
+    padding: 5px;
+    padding-bottom: 0;
+    padding-right: 0;
+    display: flex;
+}
+.complaint h2{
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: rgba(176, 43, 41, 1);
+}
+.comp{
+    width: 70%;
+    margin-top: 50px;
+}
+.comp2{
+    width: 30%;
+}
+.complaint h4{
+   
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+}
+form{
+    background-color: rgba(63, 63,149,1);
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    
+}
+input[type=text], input[type=email]{
+    border-radius: 5px;
+    border-style: none;
+    padding: 15px 10px;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+textarea{
+    width: 95%;
+    padding: 10px 5px;
+    margin-top: 10px;
+    /*241968-Tade*/
+    margin-bottom: 5px;
+    border-style: none;
+    border-radius: 5px;
+}
+button[type=submit]{
+    padding: 8px 10px;
+    background-color: white;
+    border-style: none;
+    border-radius: 5px;
+    color: rgba(156,153,176,1);
+}
+.last{
+    background-color: rgba(63, 63,149,1);
+    color: rgba(156,153,176,1);
+    display: flex;
+    height: 250px;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+#NAPSLOGO{
+    width: 70px;
+    padding: 3px;
+    margin-top: 30px;
+}
+.last p{
+    margin-left: 10px;
+    color: white;
+    font-family: arial;
+    font-weight: light;
+    font-size: 13px;
+}
+.last ul li{
+    list-style-type: none;
+    padding: 8px 10px;
+    font-size: 15px;
+    color: white;
+    font-family: arial;
+}
+#difffooter{
+    margin-top: 30px;
+    text-decoration: underline;
+    word-spacing: 3px;
+    color: rgba(156,153,176,1);
+}
+footer{
+    background-color: rgba(63, 63,149,1);
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: arial;
+    font-weight: light;
+}
+hr{
+    height: 60%;
+    margin-top: 50px;
+}
 /*dearborn */
 #achievement {
     display: grid;
@@ -182,6 +287,7 @@ hero-head {
 }
 .right-pic-sect p {
     font-weight: 700;
+<<<<<<< HEAD
 }
 #excutivecontainer{
     display: grid;
@@ -224,4 +330,6 @@ hero-head {
     display: grid;
     grid-template-columns: 250px 250px 250px 250px;
     gap: 20px;}
+=======
+>>>>>>> b40908177f08bb297911743e4c69b572a4dafaa0
 }
