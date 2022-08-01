@@ -78,7 +78,6 @@ hero-head {
     background: none;
     color: white;
 }
-<<<<<<< HEAD
 .complaint{
     padding: 5px;
     padding-bottom: 0;
@@ -185,8 +184,6 @@ hr{
     height: 60%;
     margin-top: 50px;
 }
-=======
-
 /*dearborn */
 .event{
     display: flex;
@@ -274,4 +271,3 @@ hr{
 .right-pic-sect p {
     font-weight: 700;
 }
->>>>>>> b47fbe229a18daf65a53bc74e65a0f782d9de295
