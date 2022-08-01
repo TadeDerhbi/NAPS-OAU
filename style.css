@@ -79,8 +79,6 @@ hero-head {
     color: white;
 }
 
-<<<<<<< HEAD
-
 /*dearborn */
 .event{
     display: flex;
@@ -121,8 +119,6 @@ hero-head {
     text-align: center;
     padding: 10px;
 }
-=======
->>>>>>> 97ad54257780410146a15a5697ced00c932a8117
 .right-hero {
     width: 50%;
 }
@@ -131,10 +127,6 @@ hero-head {
     border-radius: 20px;
     box-shadow: 5px 5px 10px black;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 97ad54257780410146a15a5697ced00c932a8117
 /* PICTURE SECTION */
 .picture-section {
     display: flex;
@@ -167,9 +159,6 @@ hero-head {
     width: 50%;
     display: flex;
 }
-<<<<<<< HEAD
-=======
-
 .right-pic-sect {
     width: 30%;
     margin: 0% 10%;
@@ -177,6 +166,3 @@ hero-head {
 .right-pic-sect p {
     font-weight: 700;
 }
-=======
->>>>>>> 784b346eb3b2c10a9a66f28eb7636dd74f28bb0d
->>>>>>> 97ad54257780410146a15a5697ced00c932a8117
