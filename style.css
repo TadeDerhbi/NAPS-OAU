@@ -43,7 +43,10 @@ nav img {
 
 /* HERO SECTION */
 .hero-section {
-    background-color: rgba(156,153,176,1);
+    background-image: url(dept.jpg);
+    background-color: rgba(5, 5, 4, 0.7);
+    background-blend-mode: color;
+    background-size: cover;
     padding: 7% 7%;
     display: flex;
     justify-content: space-between;
@@ -59,10 +62,11 @@ nav img {
     color: rgba(255,255,255,1);
 }
 
-hero-head {
+.hero-head {
     /* this color though...*/
     color: rgba(63, 63,149,1);
-    font-size: 300%;
+    font-size: 200%;
+    text-shadow: 15px 15px 20px black;
 }
 
 #naps {
