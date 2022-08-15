@@ -405,6 +405,7 @@ hr{
         align-items: center;
         flex-wrap: wrap;
         width: 70%;
+        font-size: 80%;
     }
 }
 
@@ -419,6 +420,7 @@ hr{
         align-items: center;
         flex-wrap: wrap;
         width: 80%;
+        font-size: 70%;
     }
     .left-nav {
         width: 30%;
@@ -436,6 +438,7 @@ hr{
         align-items: center;
         flex-wrap: wrap;
         width: 70%;
+        font-size: 60%;
     }
     .left-nav {
         width: 30%;
@@ -445,8 +448,8 @@ hr{
     }
 }
 
-@media  screen and (max-width:500px ){
-    .left-hero {
+@media  screen and (max-width:500px ) {
+    .left-hero { 
         width: 50%;
         font-size: 60%;
     }
@@ -456,7 +459,7 @@ hr{
         align-items: center;
         flex-wrap: wrap;
         width: 80%;
-        font-size: 90%;
+        font-size: 50%;
     }
     .left-nav {
         width: 20%;
@@ -498,12 +501,34 @@ hr{
         align-items: center;
         flex-wrap: wrap;
         width: 80%;
+        font-size: 70%;
     }
     .left-nav {
         width: 20%;
     }
     nav img {
         width: 35%;
+    }
+}
+
+@media  screen and (max-width:390px ){
+    .left-hero {
+        width: 50%;
+        font-size: 40%;
+    }
+    .right-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 80%;
+        font-size: 60%;
+    }
+    .left-nav {
+        width: 20%;
+    }
+    nav img {
+        width: 40%;
     }
 }
 /*WE STARTED THIS PROJECT AND WHEN WE STARTED, WE DIDNT KNOW WHAT WE WERE TYPING. FOR YOU TO HAVE READ IT TO THIS A
