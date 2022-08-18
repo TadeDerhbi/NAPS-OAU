@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-/* Sharon - Using flex for the hero section and the nav, havent gotten the hang of grid yet*/
+/* Sharon - Using flex for the hero section and the nav, haven't gotten the hang of grid yet*/
 /* HEADER */
 
 nav {
@@ -106,12 +106,12 @@ nav img {
 .hero-btn:hover {
     background-image: linear-gradient(to bottom right, rgba(63, 63,149,1), rgba(5, 5, 4, 0.7));
 }
-.complaint{
+/*.complaint{
     padding: 5px;
     padding-bottom: 0;
     padding-right: 0;
     display: flex;
-}
+}*/
 .complaint h2{
     text-align: center;
     padding-bottom: 10px;
@@ -152,7 +152,6 @@ textarea{
     width: 95%;
     padding: 10px 5px;
     margin-top: 10px;
-    /*241968-Tade*/
     margin-bottom: 5px;
     border-style: none;
     border-radius: 5px;
@@ -163,14 +162,14 @@ button[type=submit]{
     border-style: none;
     border-radius: 5px;
     color: rgba(156,153,176,1);
-}
+}/*
 .last{
     background-color: rgba(63, 63,149,1);
     color: rgba(156,153,176,1);
     display: flex;
     height: 250px;
     justify-content: space-between;
-}
+}*/
 a{
     text-decoration: none;
     color: inherit;
